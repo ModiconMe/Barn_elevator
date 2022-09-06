@@ -1,0 +1,938 @@
+$ EZ-EDS Version 3.21.1.20161208 Generated Electronic Data Sheet
+
+[File]
+        DescText = "AS00SCM-RTU(AS-FEN02) EDS File";
+        CreateDate = 09-12-2017;
+        CreateTime = 11:39:34;
+        ModDate = 12-05-2019;
+        ModTime = 09:55:35;
+        Revision = 1.02;
+        HomeURL = "http://www.deltaww.com/";
+
+[Device]
+        VendCode = 799;
+        VendName = "Delta electronics, inc.";
+        ProdType = 12;
+        ProdTypeStr = "Communications Adapter";
+        ProdCode = 16641;
+        MajRev = 1;
+        MinRev = 1;
+        ProdName = "AS00SCM-RTU(AS-FEN02)";
+        Catalog = "AS00SCM-RTU(AS-FEN02)";
+
+[Device Classification]
+        Class1 = EtherNetIP;
+
+[Params]
+        Param1 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Output Length",        $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                40,500,40,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param2 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Input Length",         $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                60,500,60,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param3 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO Data ",             $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param4 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC8,                   $ Data Type
+                4,                      $ Data Size in bytes
+                "RPI",                  $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                5000,1000000,10000,     $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param5 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Master reconnected handling",    $ name
+                "",                     $ units
+                "0:stop, 1:hold state", $ help string
+                0,1,0,                  $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Enum5 =
+                0,"Stop",
+                1,"Keep status";
+        Param6 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO module error handling",    $ name
+                "",                     $ units
+                "0:stop, 1:hold",       $ help string
+                0,1,0,                  $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Enum6 =
+                0,"Stop",
+                1,"Keep status";
+        Param7 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO module timeout handling",    $ name
+                "",                     $ units
+                "0:stop, 1:keep",       $ help string
+                0,0,0,                  $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param8 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0200,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Detect io module delay time",    $ name
+                "0.1sec",               $ units
+                "15~200",               $ help string
+                15,200,15,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param9 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Master disconnected handling",    $ name
+                "",                     $ units
+                "0:stop, 1:hold state", $ help string
+                0,1,0,                  $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Enum9 =
+                0,"stop",
+                1,"run";
+        Param10 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "RTU error code",       $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param11 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Module 1 error code",  $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param12 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Module 2 error code",  $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param13 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Module 3 error code",  $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param14 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Module 4 error code",  $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param15 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Module 5 error code",  $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param16 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Module 6 error code",  $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param17 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Module 7 error code",  $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param18 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Module 8 error code",  $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param19 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "RTU state",            $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param20 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Power State",          $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param21 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "module [0..15] state", $ name
+                "",                     $ units
+                "OK or NG",             $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param22 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "module [16..31] state",$ name
+                "",                     $ units
+                "OK or NG",             $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param23 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "module [32..47] state",$ name
+                "",                     $ units
+                "OK or NG",             $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param24 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "module [48..63] state",$ name
+                "",                     $ units
+                "OK or NG",             $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param25 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "module [64..67] state",$ name
+                "",                     $ units
+                "OK or NG",             $ help string
+                0,65535,0,              $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param26 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO0 config enable",    $ name
+                "",                     $ units
+                "0~1",                  $ help string
+                0,1,0,                  $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param27 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO1 config enable",    $ name
+                "",                     $ units
+                "0~1",                  $ help string
+                0,1,0,                  $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param28 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO2 config enable",    $ name
+                "",                     $ units
+                "0~1",                  $ help string
+                0,1,0,                  $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param29 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO3 config enable",    $ name
+                "",                     $ units
+                "0~1",                  $ help string
+                0,1,0,                  $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param30 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO4 config enable",    $ name
+                "",                     $ units
+                "0~1",                  $ help string
+                0,1,0,                  $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param31 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO5 config enable",    $ name
+                "",                     $ units
+                "0~1",                  $ help string
+                0,1,0,                  $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param32 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO6 config enable",    $ name
+                "",                     $ units
+                "0~1",                  $ help string
+                0,1,0,                  $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param33 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO7 config enable",    $ name
+                "",                     $ units
+                "0~1",                  $ help string
+                0,1,0,                  $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param34 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO0 Input filter timer setting",    $ name
+                "",                     $ units
+                "0~25",                 $ help string
+                0,25,10,                $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param35 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO1 Input filter timer setting",    $ name
+                "",                     $ units
+                "0~25",                 $ help string
+                0,25,10,                $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param36 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO2 input filter timer setting",    $ name
+                "",                     $ units
+                "0~25",                 $ help string
+                0,25,10,                $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param37 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO3 Input filter timer setting",    $ name
+                "",                     $ units
+                "0~25",                 $ help string
+                0,25,10,                $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param38 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO4 Input filter timer setting",    $ name
+                "",                     $ units
+                "0~25",                 $ help string
+                0,25,10,                $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param39 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO5 Input filter timer setting",    $ name
+                "",                     $ units
+                "0~25",                 $ help string
+                0,25,10,                $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param40 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO6 Input filter timer setting",    $ name
+                "",                     $ units
+                "0~25",                 $ help string
+                0,25,10,                $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param41 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "IO7 Input filter timer setting",    $ name
+                "",                     $ units
+                "0~25",                 $ help string
+                0,25,10,                $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param42 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC8,                   $ Data Type
+                4,                      $ Data Size in bytes
+                "AIO RPI",              $ name
+                "us",                   $ units
+                "AIO RPI",              $ help string
+                1000,1000000,20000,     $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param77 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Reserved",             $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param102 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "AIO Output Length",    $ name
+                "",                     $ units
+                "AIO Output Length",    $ help string
+                0,64,32,                $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param103 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "AIO Input Length",     $ name
+                "",                     $ units
+                "AIO Input Length",     $ help string
+                2,64,32,                $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param200 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC8,                   $ Data Type
+                4,                      $ Data Size in bytes
+                "Output",               $ name
+                "",                     $ units
+                "New Help String",      $ help string
+                102,236,102,            $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param201 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC8,                   $ Data Type
+                4,                      $ Data Size in bytes
+                "Input",                $ name
+                "",                     $ units
+                "Input",                $ help string
+                103,237,103,            $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+
+
+[Assembly]
+        Object_Name = "Assembly Object";
+        Object_Class_Code = 0x04;
+        Assem1 =
+                "Input buffer",
+                ,
+                ,
+                0x0000,
+                ,,
+                16,Param19,
+                16,Param10,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param20,
+                16,Param21,
+                16,Param22,
+                16,Param23,
+                16,Param24,
+                16,Param25,
+                16,Param11,
+                16,Param12,
+                16,Param13,
+                16,Param14,
+                16,Param15,
+                16,Param16,
+                16,Param17,
+                16,Param18,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                ,Param3;
+        Assem2 =
+                "Output buffer",
+                ,
+                ,
+                0x0000,
+                ,,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                16,Param77,
+                256,Param3;
+        Assem3 =
+                "RTU config",
+                ,
+                ,
+                0x0000,
+                ,,
+                16,Param77,
+                16,Param77,
+                16,Param5,
+                16,Param77,
+                16,Param6,
+                16,Param7,
+                16,Param77,
+                16,Param8,
+                16,Param9,
+                16,Param77,
+                16,Param26,
+                16,Param27,
+                16,Param28,
+                16,Param29,
+                16,Param30,
+                16,Param31,
+                16,Param32,
+                16,Param33,
+                16,Param34,
+                16,Param35,
+                16,Param36,
+                16,Param37,
+                16,Param38,
+                16,Param39,
+                16,Param40,
+                16,Param41;
+        Assem4 =
+                "AIO Input buffer",
+                ,
+                ,
+                0x0000,
+                ,,
+                64,Param3;
+        Assem5 =
+                "AIO Output buffer",
+                ,
+                ,
+                0x0000,
+                ,,
+                64,Param3;
+
+[Connection Manager]
+        Object_Name = "Connection Manager Object";
+        Object_Class_Code = 0x06;
+        Connection1 =
+                0x04010002,             $ 0-15    = supported transport classes
+                                        $ 16      = trigger: cyclic
+                                        $ 17      = trigger: change of state
+                                        $ 18      = trigger: application
+                                        $ 19-23   = trigger: reserved
+                                        $ 24      = application type: listen-only
+                                        $ 25      = application type: input-only
+                                        $ 26      = application type: exclusive-owner
+                                        $ 27      = application type: redundant-owner
+                                        $ 28-30   = reserved
+                                        $ 31      = Direction: Client = 0 / Server = 1
+                0x44640405,             $ 0       = O->T fixed size supported
+                                        $ 1       = O->T variable size supported
+                                        $ 2       = T->O fixed size supported
+                                        $ 3       = T->O variable size supported
+                                        $ 4-5     = O->T number of bytes per slot (obsolete)
+                                        $ 6-7     = T->O number of bytes per slot (obsolete)
+                                        $ 8-10    = O->T Real time transfer format
+                                        $ 11      = reserved
+                                        $ 12-14   = T->O Real time transfer format
+                                        $ 15      = reserved
+                                        $ 16      = O->T connection type: NULL
+                                        $ 17      = O->T connection type: MULTICAST
+                                        $ 18      = O->T connection type: POINT2POINT
+                                        $ 19      = O->T connection type: reserved
+                                        $ 20      = T->O connection type: NULL
+                                        $ 21      = T->O connection type: MULTICAST
+                                        $ 22      = T->O connection type: POINT2POINT
+                                        $ 23      = T->O connection type: reserved
+                                        $ 24      = O->T priority: LOW
+                                        $ 25      = O->T priority: HIGH
+                                        $ 26      = O->T priority: SCHEDULED
+                                        $ 27      = O->T priority: reserved
+                                        $ 28      = T->O priority: LOW
+                                        $ 29      = T->O priority: HIGH
+                                        $ 30      = T->O priority: SCHEDULED
+                                        $ 31      = T->O priority: reserved
+                Param4,Param1,Assem2,   $ O->T RPI, size, format
+                Param4,Param2,Assem1,   $ T->O RPI, size, format
+                ,,                      $ proxy config size, format
+                ,Assem3,                $ target config size, format
+                "RTU IO Owner",         $ Connection Name
+                "",                     $ help string
+                "20 04 24 80 2C 64 2C 65";    $ Path
+        Connection2 =
+                0x04010002,             $ 0-15    = supported transport classes
+                                        $ 16      = trigger: cyclic
+                                        $ 17      = trigger: change of state
+                                        $ 18      = trigger: application
+                                        $ 19-23   = trigger: reserved
+                                        $ 24      = application type: listen-only
+                                        $ 25      = application type: input-only
+                                        $ 26      = application type: exclusive-owner
+                                        $ 27      = application type: redundant-owner
+                                        $ 28-30   = reserved
+                                        $ 31      = Direction: Client = 0 / Server = 1
+                0x44640405,             $ 0       = O->T fixed size supported
+                                        $ 1       = O->T variable size supported
+                                        $ 2       = T->O fixed size supported
+                                        $ 3       = T->O variable size supported
+                                        $ 4-5     = O->T number of bytes per slot (obsolete)
+                                        $ 6-7     = T->O number of bytes per slot (obsolete)
+                                        $ 8-10    = O->T Real time transfer format
+                                        $ 11      = reserved
+                                        $ 12-14   = T->O Real time transfer format
+                                        $ 15      = reserved
+                                        $ 16      = O->T connection type: NULL
+                                        $ 17      = O->T connection type: MULTICAST
+                                        $ 18      = O->T connection type: POINT2POINT
+                                        $ 19      = O->T connection type: reserved
+                                        $ 20      = T->O connection type: NULL
+                                        $ 21      = T->O connection type: MULTICAST
+                                        $ 22      = T->O connection type: POINT2POINT
+                                        $ 23      = T->O connection type: reserved
+                                        $ 24      = O->T priority: LOW
+                                        $ 25      = O->T priority: HIGH
+                                        $ 26      = O->T priority: SCHEDULED
+                                        $ 27      = O->T priority: reserved
+                                        $ 28      = T->O priority: LOW
+                                        $ 29      = T->O priority: HIGH
+                                        $ 30      = T->O priority: SCHEDULED
+                                        $ 31      = T->O priority: reserved
+                Param42,Param102,Assem5,$ O->T RPI, size, format
+                Param42,Param103,Assem4,$ T->O RPI, size, format
+                ,,                      $ proxy config size, format
+                ,,                      $ target config size, format
+                "RTU AIO Conn",         $ Connection Name
+                "",                     $ help string
+                "20 04 24 80 2C [Param200] 2C [Param201]";    $ Path
+        ProxyConnect1 =
+                0x04010002,             $ 0-15    = supported transport classes
+                                        $ 16      = trigger: cyclic
+                                        $ 17      = trigger: change of state
+                                        $ 18      = trigger: application
+                                        $ 19-23   = trigger: reserved
+                                        $ 24      = application type: listen-only
+                                        $ 25      = application type: input-only
+                                        $ 26      = application type: exclusive-owner
+                                        $ 27      = application type: redundant-owner
+                                        $ 28-30   = reserved
+                                        $ 31      = Direction: Client = 0 / Server = 1
+                0x44640405,             $ 0       = O->T fixed size supported
+                                        $ 1       = O->T variable size supported
+                                        $ 2       = T->O fixed size supported
+                                        $ 3       = T->O variable size supported
+                                        $ 4-5     = O->T number of bytes per slot (obsolete)
+                                        $ 6-7     = T->O number of bytes per slot (obsolete)
+                                        $ 8-10    = O->T Real time transfer format
+                                        $ 11      = reserved
+                                        $ 12-14   = T->O Real time transfer format
+                                        $ 15      = reserved
+                                        $ 16      = O->T connection type: NULL
+                                        $ 17      = O->T connection type: MULTICAST
+                                        $ 18      = O->T connection type: POINT2POINT
+                                        $ 19      = O->T connection type: reserved
+                                        $ 20      = T->O connection type: NULL
+                                        $ 21      = T->O connection type: MULTICAST
+                                        $ 22      = T->O connection type: POINT2POINT
+                                        $ 23      = T->O connection type: reserved
+                                        $ 24      = O->T priority: LOW
+                                        $ 25      = O->T priority: HIGH
+                                        $ 26      = O->T priority: SCHEDULED
+                                        $ 27      = O->T priority: reserved
+                                        $ 28      = T->O priority: LOW
+                                        $ 29      = T->O priority: HIGH
+                                        $ 30      = T->O priority: SCHEDULED
+                                        $ 31      = T->O priority: reserved
+                Module,Module,Module,   $ O->T RPI, size, format
+                Module,Module,Module,   $ T->O RPI, size, format
+                ,,                      $ proxy config size, format
+                ,Module,                $ target config size, format
+                "Owner",                $ Connection Name
+                "",                     $ help string
+                "01 SLOT 20 04 24 81 2C 66 2C 67";    $ Path
+
+[DLR Class]
+        Revision = 2;
+        Object_Name = "Device Level Ring Object";
+        Object_Class_Code = 0x47;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+        Ring_Supervisor_Capable = Yes;
+
+[TCP/IP Interface Class]
+        Revision = 3;
+        Object_Name = "TCP/IP Interface Object";
+        Object_Class_Code = 0xF5;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+
+[Ethernet Link Class]
+        Revision = 3;
+        Object_Name = "Ethernet Link Object";
+        Object_Class_Code = 0xF6;
+        MaxInst = 2;
+        Number_Of_Static_Instances = 2;
+        Max_Number_Of_Dynamic_Instances = 0;
+        InterfaceLabel1 = "x1";
+        InterfaceLabel2 = "x2";
+        InterfaceType1 = 2;
+        InterfaceType2 = 2;
+
+[QoS Class]
+        Revision = 1;
+        Object_Name = "QoS Object";
+        Object_Class_Code = 0x48;
+        MaxInst = 1;
+        Number_Of_Static_Instances = 1;
+        Max_Number_Of_Dynamic_Instances = 0;
+

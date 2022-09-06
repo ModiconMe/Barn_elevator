@@ -1,0 +1,88 @@
+DATCIKI ANAL
+0 davl_vp1
+1 davl_vp2
+2 davl_vvd1
+3 davl_vvd2
+4 davl_vnd
+5 davl_vz
+6 davl_ds
+7 razr_lev
+8 razr_prav
+9 uroven_bar
+10 davl_barab
+11 rashod_para_420
+12 davl_pit_vodi
+13 rashod_pit_vodi
+
+DATCIKI RTD
+0 t_gazov_za_k
+1 t_gazov_za_ekon
+2 t_vhod_v_kotel
+3 t_pit_do_ekon
+4 t_vozd1_do_kotla
+5 t_vozd2_do_kotla
+
+DATCIKI M
+0 VAU
+1 VU
+2 NU
+3 NAU
+4 RASHOD VODA
+5 ZU1_VU
+6 ZU2_VU
+7 VSO1_PROTOK
+8 VSO2_PROTOK
+9 FAKEL_LEV
+10 FAKEL_PRAV
+11 TROS
+12 DZ1_VU
+13 DZ1_NU
+14 DZ2_VU
+15 DZ2_NU
+
+VFD
+0 DS (р)
+1 VVD1
+2 VVD2
+3 VND
+4 VZ
+5 VP1
+6 VP2
+7 DZ1
+8 DZ2
+9 KZ
+10 MAIN (р)
+
+Pid
+0 DS
+1 MAIN
+2 RU
+
+KM
+0 TS
+1 VSO1
+2 VSO2
+3 GPZ
+4 DZC
+5 ZTT1
+6 ZTT2
+7 ZTZ1
+8 ZTZ2
+9 UPO1
+10 UPO2
+11 LC
+12 UPO1_Vras
+13 UPO2_Vras
+
+Avarii
+0 Razr_min
+1 Razr_max
+2 Uroven_VAU
+3 Uroven_NAU
+4 Davl_v_b_max
+5 Vozduh_VVD_min
+6 Vozduh_VVD_min
+7 T_gazov_za_ekon_max
+8 Protok
+9 Avaria_privodov
+
