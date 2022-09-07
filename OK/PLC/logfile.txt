@@ -1,3 +1,8 @@
-3|***|2022-09-05 12:00:36.1411|***|16460|***|1|***|INFO|***|HWCONFIG.Form_Main.SaveUserProject|***|Project saved successfully.\r\nProject directory: D:\БЭ наладка\Barn_Elev\PLC\OK 
-3|***|2022-09-05 13:21:54.7683|***|4980|***|1|***|INFO|***|HWCONFIG.Form_Main.SaveUserProject|***|Project saved successfully.\r\nProject directory: D:\БЭ наладка\Barn_Elev\PLC\OK 
-3|***|2022-09-05 13:28:13.4412|***|2068|***|1|***|INFO|***|HWCONFIG.Form_Main.SaveUserProject|***|Project saved successfully.\r\nProject directory: D:\БЭ наладка\Barn_Elev\PLC\OK 
+3|***|2022-09-07 13:14:07.6246|***|8816|***|1|***|ERROR|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView.IsNeedToDownloadBeforeOnline|***|Cannot establish connection to device 192.168.22.44:502 
+4|***|2022-09-07 13:16:14.9823|***|8816|***|1|***|WARN|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView.DiagramControl_MouseDoubleClick|***|The IP address of the CPU cannot be modified here. If you want to do this, please change it in "Hardware Configuration". 
+5|***|2022-09-07 13:16:31.2909|***|8816|***|1|***|ERROR|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView.IsNeedToDownloadBeforeOnline|***|Cannot establish connection to device 192.168.22.44:502 
+6|***|2022-09-07 13:17:08.4697|***|8816|***|1|***|ERROR|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView.IsNeedToDownloadBeforeOnline|***|Cannot establish connection to device 192.168.22.44:502 
+7|***|2022-09-07 13:19:43.1839|***|8816|***|1|***|ERROR|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView.Online|***|COMMGR encountered an error while processing the request: Ethernet handshake timeout with device 
+8|***|2022-09-07 13:20:34.0797|***|8816|***|1|***|ERROR|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView.Online|***|COMMGR encountered an error while processing the request: Ethernet handshake timeout with device 
+9|***|2022-09-07 13:21:19.0428|***|8816|***|1|***|ERROR|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView.IsNeedToDownloadBeforeOnline|***|Cannot establish connection to device 192.168.22.44:502 
+10|***|2022-09-07 13:21:44.6779|***|8816|***|1|***|ERROR|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView.IsNeedToDownloadBeforeOnline|***|Cannot establish connection to device 192.168.22.44:502 
