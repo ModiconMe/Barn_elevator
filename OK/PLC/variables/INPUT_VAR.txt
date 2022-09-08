@@ -9,6 +9,7 @@ DATCIKI ANAL
 7 davl_n_not
 8 davl_v_npk
 9 davl_n_npk
+10 davl_
 
 
 
