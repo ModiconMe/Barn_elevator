@@ -1,16 +1,2 @@
-4|***|2022-09-08 10:31:30.4351|***|5268|***|1|***|ERROR|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView.IsNeedToDownloadBeforeOnline|***|Cannot establish connection to device 192.168.22.44:502 
-5|***|2022-09-08 10:32:17.7060|***|5268|***|1|***|ERROR|***|Delta.Diagram.EIP.NetworkView.UserControl_SlaveInfo+VM_SlaveInfo.set_IpAddress|***|CMC-EIP01 (PN1) 欲設定 IP 地址 (192.168.22.57) 已與裝置 CMC-EIP01 (PN2) 重複。 
-6|***|2022-09-08 10:32:41.9351|***|5268|***|1|***|INFO|***|HWCONFIG.Form_Main.SaveUserProject|***|Project saved successfully.\r\nProject directory: D:\БЭ наладка\Barn_Elev\OK\PLC 
-7|***|2022-09-08 10:46:14.9489|***|5268|***|1|***|WARN|***|HWCONFIG.Form_Main.Form_Main_FormClosing|***|Please stop Online Mode before closing. 
-8|***|2022-09-08 10:46:30.6397|***|5268|***|1|***|WARN|***|HWCONFIG.Form_Main.Form_Main_FormClosing|***|Please stop Online Mode before closing. 
-9|***|2022-09-08 10:46:34.2005|***|5268|***|1|***|WARN|***|HWCONFIG.Form_Main.Form_Main_FormClosing|***|Please stop Online Mode before closing. 
-10|***|2022-09-08 10:46:48.0519|***|5268|***|1|***|INFO|***|HWCONFIG.Form_Main.SaveUserProject|***|Project saved successfully.\r\nProject directory: D:\БЭ наладка\Barn_Elev\OK\PLC 
-3|***|2022-09-08 10:52:31.0544|***|4964|***|7|***|WARN|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView+<>c__DisplayClass41_0.<OnlineModule>b__1|***|Number of software connections (8) and firmware connection (0) are different. 
-4|***|2022-09-08 10:52:34.1799|***|4964|***|7|***|WARN|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView+<>c__DisplayClass41_0.<OnlineModule>b__1|***|Number of software connections (8) and firmware connection (0) are different. 
-5|***|2022-09-08 10:53:50.8713|***|4964|***|34|***|WARN|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView+<>c__DisplayClass41_0.<OnlineModule>b__1|***|Number of software connections (8) and firmware connection (0) are different. 
-3|***|2022-09-08 10:59:57.2931|***|9992|***|26|***|WARN|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView+<>c__DisplayClass41_0.<OnlineModule>b__1|***|Number of software connections (9) and firmware connection (0) are different. 
-4|***|2022-09-08 11:00:37.1294|***|9992|***|26|***|WARN|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView+<>c__DisplayClass41_0.<OnlineModule>b__1|***|Number of software connections (9) and firmware connection (0) are different. 
-5|***|2022-09-08 11:00:40.7496|***|9992|***|26|***|WARN|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView+<>c__DisplayClass41_0.<OnlineModule>b__1|***|Number of software connections (9) and firmware connection (0) are different. 
-6|***|2022-09-08 11:03:37.4887|***|9992|***|26|***|WARN|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView+<>c__DisplayClass41_0.<OnlineModule>b__1|***|Number of software connections (9) and firmware connection (0) are different. 
-7|***|2022-09-08 11:03:40.5961|***|9992|***|26|***|WARN|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView+<>c__DisplayClass41_0.<OnlineModule>b__1|***|Number of software connections (9) and firmware connection (0) are different. 
-8|***|2022-09-08 11:04:24.6964|***|9992|***|1|***|INFO|***|Delta.Diagram.EIP.NetworkView.UserControl_EIP_NetworkView.Online|***|Re-download successful. 
+3|***|2022-09-19 13:28:36.3084|***|12320|***|1|***|INFO|***|HWCONFIG.Form_Main.SaveUserProject|***|Project saved successfully.\r\nProject directory: D:\БЭ наладка\Barn_Elev\OK\PLC 
+3|***|2022-09-19 16:06:25.7679|***|6856|***|1|***|INFO|***|HWCONFIG.Form_Main.SaveUserProject|***|Project saved successfully.\r\nProject directory: D:\БЭ наладка\Barn_Elev\OK\PLC 
